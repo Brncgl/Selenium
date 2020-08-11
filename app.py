@@ -6,8 +6,8 @@ import time
 #https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 #https://github.com/mozilla/geckodriver/releases/
 
-browser = webdriver.Edge(executable_path="BrowserDriver/...")
-browser = webdriver.Firefox(executable_path="BrowserDriver/...")
+browser = webdriver.Edge(executable_path="msedgedriver.exe")
+#browser = webdriver.Firefox(executable_path="BrowserDriver/...")
 
 url = "https://eksisozluk.com/mustafa-kemal-ataturk--34712?p="
 pageCount = 1
